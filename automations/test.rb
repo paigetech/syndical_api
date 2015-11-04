@@ -7,7 +7,7 @@ puts 'Driving Now'
 
 Headless.ly do
   driver = Selenium::WebDriver.for(:firefox)
-  driver.get 'http://google.com'
+  driver.get 'http://cnn.com'
   puts driver.title
+  driver.quit
 end
-driver.quit
